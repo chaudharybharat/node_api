@@ -7,7 +7,9 @@
       console.log("Database connected successfully"+connect.connection.host,
         connect.connection.name
       );
-    }catch(erro){}
+    }catch(erro){
+      console.log("===Error==="+erro);
+    }
 
 
  };
